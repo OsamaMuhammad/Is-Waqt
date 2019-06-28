@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="16dp"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/updates_card"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Osama Muhammad"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/updateslist_user_name"/>
+                <RatingBar
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_below="@id/updateslist_user_name"
+                    android:numStars="5"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/updateslist_rating_bar"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="osaosaosannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnos"
+                android:layout_marginHorizontal="16dp"
+                android:id="@+id/updateslist_post_text"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/updatesList_photo_without_delete"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location_marker"
+                    android:id="@+id/location_mark"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="osamsjdjcsjdjsjdsid"
+                    android:id="@+id/updateslist_location_text"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/location_mark"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_time"
+                    android:id="@+id/time_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="osamsjdjcsjdjsjdsid"
+                    android:id="@+id/updateslist_time_text"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@id/time_icon"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+
+                <com.like.LikeButton
+                    android:id="@+id/like_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:icon_type="star"
+                    app:is_enabled="true"
+                    app:icon_size="30dp"
+                    app:like_drawable="@drawable/ic_like_pressed"
+                    app:unlike_drawable="@drawable/ic_like_unpressed"
+                    app:anim_scale_factor="2"
+                    />
+                <com.like.LikeButton
+                    android:id="@+id/dislike_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:icon_type="star"
+                    app:is_enabled="true"
+                    app:icon_size="30dp"
+                    app:like_drawable="@drawable/ic_dislike_pressed"
+                    app:unlike_drawable="@drawable/ic_dislike_unpressed"
+                    app:anim_scale_factor="2"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

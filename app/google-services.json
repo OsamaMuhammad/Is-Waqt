@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798425445203",
+    "firebase_url": "https://iswakt-1f2c8.firebaseio.com",
+    "project_id": "iswakt-1f2c8",
+    "storage_bucket": "iswakt-1f2c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798425445203:android:ea712a9287a4b5e2",
+        "android_client_info": {
+          "package_name": "com.example.iswakt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798425445203-6nj0hlsocotek6fuvot87j3cp8id6tnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iswakt",
+            "certificate_hash": "d19b6ed0700904a4ea766905a114a3e9e1d7a82c"
+          }
+        },
+        {
+          "client_id": "798425445203-6stfsqh69p5t65ct7liditb0g5s18216.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJD1qcuKZz1ZvdjdU9u3SdZxrBjfnJRg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798425445203-6stfsqh69p5t65ct7liditb0g5s18216.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

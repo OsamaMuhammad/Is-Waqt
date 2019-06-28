@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Is Wakt</string>
+    <string name="app_slogan">What. Why. Where.</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_retype_password">Retype Password</string>
+    <string name="password_warning">Minimum 6 characters</string>
+    <string name="privacy_policy_link_text"><u>our privacy policy</u></string>
+    <string name="agreement">By Signing up you agree to </string>
+    <string name="goto_signup_screen_text">Don\'t have an account? Sign up!</string>
+    <string name="signin_button_text">Sign In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feed_setting_text">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+
+
+    <string name="facebook_app_id">417239015537439</string>
+    <string name="fb_login_protocol_scheme">fb417239015537439</string>
+
+</resources>
