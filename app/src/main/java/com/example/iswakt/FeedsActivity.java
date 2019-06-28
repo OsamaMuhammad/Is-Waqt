@@ -111,14 +111,6 @@ public class FeedsActivity extends AppCompatActivity implements SocialFragment.O
                 Toast.makeText(this, "Menu clicked", Toast.LENGTH_SHORT).show();
             }
           if(item.getItemId()==R.id.feed_logout){
-//                new Handler().postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        mAuth.signOut();
-//                        startActivity(new Intent(FeedsActivity.this, LoginActivity.class));
-//                        finish();
-//                    }
-//                }, 1000);
               signOut();
             }
         return true;
@@ -140,10 +132,14 @@ public class FeedsActivity extends AppCompatActivity implements SocialFragment.O
                 finish();
             }
         }, 1000);
+
+        //facebook signout
         if(LoginManager.getInstance()!=null){
             LoginManager.getInstance().logOut();
         }
 
+
+        //google signout;
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.google_cloud_web_client_id))
                 .requestEmail()
