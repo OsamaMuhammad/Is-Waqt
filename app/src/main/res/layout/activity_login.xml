@@ -91,14 +91,20 @@
         <com.facebook.login.widget.LoginButton
             android:id="@+id/facebook_login_button"
             android:text="Login with Facebook"
-            android:textColor="@android:color/white"
             android:textAllCaps="false"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="20dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_signin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 
